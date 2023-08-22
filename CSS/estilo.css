@@ -1,0 +1,699 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.iconoGR {
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #f2f1ff;
+}
+ul li a:hover{
+    text-decoration: overline;
+}
+.main-index{
+    height: 40vh;
+    font-style: italic;
+    padding: 5%;
+    text-align: center;
+    color: whitesmoke;
+    background-image: url(../galeria/nenaestudia.jpg);
+    background-size: cover;
+}
+.main-index h4{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 200;
+}
+.main-index a{
+    border: solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.054);
+    color: whitesmoke;
+}
+.boton-index{
+    margin-top: 40px;
+}
+
+
+.section-cursos{
+    height: 16vh;
+   background-color: rgba(240, 237, 243, 0.82);
+    font-family: 'Poppins' italic'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+}
+.titulo-cursos{
+    padding-top: 1%;
+    text-align: center;
+    font-weight: 400;
+    font-size: medium;
+}
+.section-cursos p{
+    font-size: smaller;
+    text-align: center;
+    font-weight: 300;
+}
+.section-cursos div img{
+    height: 30%;
+    width: 20%;
+    display: none;
+}
+.texto-cursos a{
+    font-size: x-small;
+    margin-left: 47%;
+    padding: 1%;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    border-color: black;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.369);;
+}
+
+
+#escrito{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#escrito .escrito-uno, .escrito-dos, .escrito-tres h3{
+    font-style: italic;
+}
+#escrito .escrito-uno img{
+    height: 60% ;
+    width: 60% ;
+    padding-left: 35%;
+}
+#escrito .escrito-dos img{
+    height: 60% ;
+    width: 60% ;
+    padding-left: 35%;
+}
+#escrito .escrito-tres img{
+    height: 60% ;
+    width: 60% ;
+    padding-left: 35%;
+}
+.errores-titulo{
+    margin-top: 10%;
+    height: 10vh;
+    color: white;
+    background-image: url(../galeria/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.errores-titulo h2{
+    text-decoration: overline;
+    margin-left: 10%;
+    padding: 3%;
+}
+#grid{
+    padding: 15px;
+    padding-top: 0%;
+        height: 60vh;
+        color: white;
+        background-image: url(../galeria/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        gap: 5%;
+}
+#grid .reloj img{
+    height: 150px;
+    width: 150px;
+}
+#grid .sorpresa img{
+    height: 150px;
+    width: 150px;
+}
+#grid .dinero img{
+    height: 150px;
+    width: 150px;
+}
+#grid .reloj, .sorpresa, .dinero{
+    padding-top: 10%;
+    font-size: 15px;
+    font-weight: 200;
+}
+#grid h2{
+    padding-top: 5%;
+    font-size: 15px;
+}
+footer{
+    display: flex;
+    justify-content: end;
+    height: 10vh;
+    background-color: rgb(248, 249, 250);
+}
+.wpp, .tw, .ig, .face{
+    margin-top: 25%;
+    height: 40px;
+    width: 55px;
+}
+
+.main-nosotros{
+    font-style: italic;
+    padding: 5%;
+    text-align: center;
+    color: whitesmoke;
+    background-image: url(../galeria/chicacompu.jpg);
+    background-size: cover;
+}
+.main-nosotros h1{
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: overline;
+}
+.main-nosotros h3{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.patri h2{
+    text-decoration: underline;
+    margin-left: 20%;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+}
+.patri p{
+    text-align: center;
+    font-size: 15px ;
+    padding: 5px;
+}
+.patri img{
+    border: solid;
+    border-color: #f2f1ff;
+    height: 60%;
+    width: 60% ;
+
+}
+.patri a img{
+    margin-left: 35%;
+    height: 15%;
+    width: 30%;
+}
+.andre{
+    margin-top: 15px;
+    margin-left: 15px;
+    position: relative;
+}
+.andre h2{
+    font-weight: 300;
+    text-decoration: underline;
+    margin-left: 20%;
+    font-size: 20px;
+    font-style: italic;
+}
+.andre p{
+    text-align: center;
+    font-size: 15px ;
+    padding: 5px;
+}
+.andre img{
+    margin-left: 18%;
+    height: 60%;
+    width: 60% ;
+    padding-bottom: 3%;
+}
+.andre a img{
+    margin-left: 35%;
+    height: 15%;
+    width: 30%;
+}
+.comienzos-g{
+    color: white;
+    background-image: url(../galeria/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.comienzos-g h2{
+    padding-top: 10px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: overline;
+}
+.comienzos-g p{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.img-comienzos-g{
+    display: none;
+}
+.p-comienzos-g{
+    display: none;
+}
+.main-faq{
+    font-style: italic;
+    padding: 5%;
+    text-align: center;
+    color: whitesmoke;
+    background-size: cover;
+    background-image: url(../galeria/chicos-fyq.jpg);
+}
+
+.main-faq h1{
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: overline;
+}
+.main-faq h3{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+.main-serv{
+    font-style: italic;
+    padding: 5%;
+    text-align: center;
+    color: whitesmoke;
+    background-size: cover;
+    background-image: url(../galeria/chica-cursos.jpg);
+    background-position: center;
+}
+.main-serv h1{
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: overline;
+}
+.main-serv h3{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.main-contacto{
+    font-style: italic;
+    padding: 5%;
+    text-align: center;
+    color: whitesmoke;
+    background-size: cover;
+    background-image: url(../galeria/compu.jpg);
+}
+.main-contacto h1{
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: overline;
+}
+.main-contacto h3{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 200;
+}
+.acordiones{
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+}
+.acordion-uno, .acordion-dos, .acordion-tres{
+    margin-top: 5%;
+    height: 40vh;
+    width: 70vh;
+    color: white;
+    overflow: auto;
+}
+.acordion-uno{
+    background-image: url(../galeria/chica-libro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.acordion-dos{
+    background-image: url(../galeria/libros-solos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.acordion-tres{
+    background-image: url(../galeria/chico-libro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo-acordion{
+text-align: center;
+font-weight: 500;
+font-size: 20px;
+}
+
+
+
+@media screen and (max-width:768px){
+    .errores-titulo h2{
+        font-size: 20px;
+    }
+    .patri{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .patri img{
+        border: solid;
+        border-color: #f2f1ff;
+        margin-left: 18%;
+        height: 60%;
+        width: 60% ;
+        padding-bottom: 3%;
+    }
+    .comienzos-g p{
+        padding-bottom: 5%;
+    }
+    #grid .reloj p{
+        font-size: 12px;
+    }
+    #grid .sorpresa p{
+        font-size: 12px;
+    }
+    #grid .dinero p{
+        font-size: 12px;
+    }
+    .acordion-uno, .acordion-dos, .acordion-tres{
+        margin-top: 5%;
+        height: 30vh;
+        width: 50vh;
+    }
+}
+
+@media screen and (min-width:768px){
+    main{
+        height:40vh;
+    }
+
+    .errores-titulo{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-image: url(../galeria/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+    }
+    #grid{
+        padding: 15px;
+        height: 60vh;
+        color: white;
+        background-image: url(../galeria/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        gap: 5%;
+    }
+    
+    #grid .reloj img{
+        height: 150px;
+        width: 150px;
+    }
+    #grid .sorpresa img{
+        height: 150px;
+        width: 150px;
+    }
+    #grid .dinero img{
+        height: 150px;
+        width: 150px;
+    }
+    #grid .reloj, .sorpresa, .dinero{
+        padding-top: 10%;
+        font-size: 15px;
+        font-weight: 200;
+    }
+    #grid h2{
+        padding-top: 5%;
+        font-size: 15px;
+    }
+    .titulo-cursos{
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .section-cursos p{
+        font-size: 10px;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .patri img{
+        height: 300px;
+        width: 300px;
+        margin-left: 40px;
+    }
+    .patri-responsive{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+    }
+    .patri a img{
+        height: 25%;
+        width: 50%;
+    }
+    .patri h2{
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .patri p{
+        text-align: left;
+        font-style: italic;
+        font-weight: 300;
+        margin-left: 5px;
+    }
+    .andre h2{
+        font-size: 20px;
+        margin-top: 15px;
+        text-align: end;
+        margin-right: 40px;
+    }
+    .andre p{
+        text-align: right;
+        font-style: italic;
+        font-weight: 300;
+        margin-left: 5px; 
+        order: 2;
+    }
+    .andre img{
+        height: 300px;
+        width: 300px;
+        margin-left: 35px;
+        order: 3;
+    }
+   .andre-responsive{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+   }
+   .andre a img{
+    order: 1;
+    height: 25%;
+    width: 50%;
+}
+.main-nosotros{
+    height: 40vh;
+}
+.main-nosotros h1{
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.main-nosotros h3{
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal;
+}
+.main-faq{
+    height: 40vh;
+}
+.main-faq h1{
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.main-faq h3{
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal;
+}
+.main-serv{
+    height: 40vh;
+}
+.main-serv h1{
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.main-serv h3{
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal;
+}
+.img-comienzos-g{
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    margin-left: 20px;
+}
+.p-comienzos-g{
+    display: inline-block;
+    margin-top: 0%;
+}
+.texto-nosotros-responsive{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+}
+
+
+
+
+
+@media screen and (min-width:1024px){
+    .main-index{
+        height:90vh;
+    }
+   .boton-index{
+    padding: 100px;
+    font-size: 30px;
+    border-radius: 100px;
+   }
+    .main-index h1{
+        padding-top: 10%;
+        font-size: 80px;
+        font-weight: 300;
+        font-family: 'Poppins' sans-serif;
+    }
+    .main-index h4{
+        font-size: 30px;
+    }
+    .errores-titulo h2{
+        text-align: center;
+    }
+    .errores-titulo{
+        height: 12vh;
+        display: inline-block;
+        width: 100%;
+        color: white;
+        background-image: url(../galeria/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Poppins', sans-serif;
+    }
+    #grid{
+        padding: 15px;
+        height: 60vh;
+        color: white;
+        background-image: url(../galeria/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        font-family: 'Poppins', sans-serif;
+        gap: 3%;
+    }
+    
+    #grid .reloj img{
+        margin-left: 20px;
+        height: 200px;
+        width: 200px;
+    }
+    #grid .sorpresa img{
+        margin-left: 60px;
+        height: 200px;
+        width: 200px;
+    }
+    #grid .dinero img{
+        margin-left: 100px;
+        height: 200px;
+        width: 200px;
+    }
+   #grid p{
+    margin-left: 20px;
+   }
+    #grid h2{
+        margin-left: 20px;
+        padding-top: 5%;
+        font-size: 25px;
+        font-weight: 400;
+    }
+  .section-cursos{
+    height: 30vh;
+  }
+  .titulo-cursos{
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+.section-cursos p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+}
+.escrito-uno{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr ;
+}
+.escrito-dos{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr ;
+}
+.escrito-tres{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr ;
+}
+#escrito .escrito-uno img{
+    height: 80% ;
+    width: 100% ;
+}
+#escrito .escrito-dos img{
+    height: 80% ;
+    width: 100% ;
+}
+#escrito .escrito-tres img{
+    height: 80% ;
+    width: 100% ;
+
+}
+#escrito h3{
+    font-style: italic;
+    font-size: 40px;
+
+}
+.img-comienzos-g{
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    margin-left: 20px;
+}
+.p-comienzos-g{
+    display: inline-block;
+    margin-top: 0%;
+}
+.texto-nosotros-responsive{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.acordiones{
+    margin: 10%;
+    display: flex;
+}
+.acordion-uno, .acordion-dos, .acordion-tres{
+    margin-top: 5%;
+    height: 45vh;
+    width: 100vh;
+}
+}
+
